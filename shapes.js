@@ -40,4 +40,39 @@ class Circle extends Shape {
   }
 }
 
+class Square extends Shape {
+  render(){
+    return `<square cx="50" cy="50" r="50" fill="${this.color}" />`
+  }
+}
+
+class Triangle extends Shape {
+  render(){
+    return `<triangle cx="50" cy="50" r="50" fill="${this.color}" />`
+  }
+}
+
+class Dodecahydron extends Shape {
+  render(){
+    return `<dodecahydron cx="50" cy="50" r="50" fill="${this.color}" />`
+  }
+}
+
+class Star extends Shape {
+  render(){
+    return `<star cx="50" cy="50" r="50" fill="${this.color}" />`
+  }
+}
+
+class Rectangle extends Shape {
+  render(){
+    return `<rectangle cx="50" cy="50" r="50" fill="${this.color}" />`
+  }
+}
+
 module.exports = {Circle, Text, Svg}
+module.exports = {Square, Text, Svg}
+module.exports = {Triangle, Text, Svg}
+module.exports = {Dodecahydron, Text, Svg}
+module.exports = {Star, Text, Svg}
+module.exports = {Rectangle, Text, Svg}
